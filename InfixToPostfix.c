@@ -47,9 +47,9 @@ int space(char c)
     else
         return 0;
 }
-int pre(char symbol)
+int pre(char choice)
 {
-    switch(symbol)
+    switch(choice)
     {
         case '^':
             return 3;
